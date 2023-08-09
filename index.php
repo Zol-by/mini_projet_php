@@ -1,3 +1,5 @@
+    <!-- Créer par éloge -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,33 +11,55 @@
 </head>
 
 <body>
-    <section class="row shadow">
-        
-        <nav class="navbar bg-danger border-bottom border-body" data-bs-theme="danger">
-            <ul class="nav text-centre">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">APPRENANTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">TITUTAIRS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+    <!-- Navigation -->
+    <section class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger static-top rounded">
+            <div class="container">
+
+                <div class="col-lg-3">
+                    <a href="index.php"><img class="navbar-brand rounded mx-auto d-block" src="images/simplon.JPG" width="200" alt=""></a>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-bg-dark rounded" href="index.php"><strong>ACCUIEL</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="liste_apprenant.php"><strong>LISTE DES APRENANTS</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="liste_tuteur.php"><strong>LISTE DES TUTEURS</strong></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <a href="index.php"><img class="navbar-brand rounded mx-auto d-block" src="images/logo_hcr.jpg" width="200" alt=""></a>
+                </div>
+            </div>
         </nav>
     </section>
 
-    <section>
-            <h2 class="text-center">BIENVENUE DANS GESTION DES APPRENANTS</h2>
-    </section>
+    <!-- Page Contenu -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2><strong><u>BIENVENUE DANS LA GESTION DES APPRENANTS</u></strong></h2>
+                <div class="navbar bg-danger text-center rounded">
+                    <img src="images/classe.jpg" width="1075" height="500" class="rounded mx-auto d-block" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </br>
 
-    <section>
-
-    </section>
+    <!-- Page Footer -->
+    <?php
+	    include('footer.php');
+    ?>
 </body>
 
 </html>
