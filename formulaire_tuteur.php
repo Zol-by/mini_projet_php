@@ -9,7 +9,7 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
-    <title>Mini Application PHP</title>
+    <title>Annuaire des Apprenants</title>
 </head>
 
 <body>
