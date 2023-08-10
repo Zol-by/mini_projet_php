@@ -91,8 +91,8 @@
                                     <td>" . $donnees['email'] . "</td>
                                     <td>" . $donnees['grade'] . "</td>
                                     <td>
-                                        <a href='sup_tuteur.php?numTuteur=" . $donnees['id'] . "'><strong style='color: red'><img src='images/annuler.PNG' title='supprimer' alt=''></strong></a>
-                                        <a href='modifier_tuteur.php?numTuteur=" . $donnees['id'] . "'><strong style='color: red'><img src='images/modifier.PNG' title='modifier' alt=''></strong></a>
+                                        <a href='sup_tuteur.php?numTuteur=" . $donnees['id'] . "'><strong style='color: red'><img  src='images/delete.png' width='28'  title='supprimer' alt=''></strong></a>
+                                        <a href='modifier_tuteur.php?numTuteur=" . $donnees['id'] . "'><strong style='color: red'><img src='images/crayon.png'width='28' title='modifier' alt=''></strong></a>
                                     </td>
                                 </tr>";
                             }
