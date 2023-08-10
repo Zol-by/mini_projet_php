@@ -92,8 +92,8 @@
                                     <td>" . $donnees['telephone'] . "</td>
 
                                     <td>
-                                        <a href='sup_apprenant.php?numApprenant=" . $donnees['id'] . "'><strong style='color: red'><img src='images/annuler.PNG' title='supprimer' alt=''></strong></a>
-                                        <a href='modifier_apprenant.php?numApprenant=" . $donnees['id'] . "'><strong style='color: red'><img src='images/modifier.PNG' title='modifier' alt=''></strong></a>
+                                        <a href='sup_apprenant.php?numApprenant=" . $donnees['id'] . "'><strong style='color: red'><img src='images/delet.jpg' width='28'  title='supprimer' alt=''></strong></a>
+                                        <a href='modifier_apprenant.php?numApprenant=" . $donnees['id'] . "'><strong style='color: red'><img src='images/modifi.jpg' width='28' title='modifier' alt=''></strong></a>
                                     </td>
                                 </tr>";
                             }
