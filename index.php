@@ -22,15 +22,15 @@
 
                 <div class="col-lg-6 ">
                     <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-2">
                                 <a class="nav-link text-bg-dark rounded" href="index.php"><strong>ACCUIEL</strong></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="liste_apprenant.php"><strong>LISTE DES APRENANTS</strong></a>
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-bg-light rounded" href="liste_apprenant.php"><strong>LISTE DES APRENANTS</strong></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="liste_tuteur.php"><strong>LISTE DES TUTEURS</strong></a>
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-bg-light rounded" href="liste_tuteur.php"><strong>LISTE DES TUTEURS</strong></a>
                             </li>
                         </ul>
                     </div>
