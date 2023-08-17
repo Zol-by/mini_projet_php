@@ -62,7 +62,6 @@
                         echo "
                             <tbody class='table-danger'>
                             <tr class='text-center'>
-                                <th>Photo</th>
                                 <th>Nom</th>
                                 <th>Prénoms</th>
                                 <th>Sexe</th>
@@ -79,9 +78,6 @@
                             echo "
 
                                 <tr class='text-center'>
-                                    <td>
-                                        <img src='images/default-avatar.PNG' width='50' alt=''>
-                                    </td>
                                     <td>" . $donnees['nom'] . "</td>
                                     <td>" . $donnees['prenom'] . "</td>
                                     <td>" . $donnees['sexe'] . "</td>
